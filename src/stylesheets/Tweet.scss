@@ -1,0 +1,44 @@
+ul.tweet-data {
+  margin: 0;
+}
+
+ul.tweet-data li {
+  display:inline;
+  list-style-type: none;
+  float:left;
+  margin-right: 20px;
+  color: $grey;
+}
+
+li#tweet-name {
+  color: black;
+}
+
+.tweet-box {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.favorite {
+  color: red;
+}
+
+.retweet {
+  color: green;
+}
+
+.tweet-img {
+  padding: 5px;
+}
+
+.profile-pic {
+  padding-top: 5px;
+}
+
+.tweet-body {
+  padding-left: 0;
+}
+
+.allContent {
+  background-color: $light-grey;
+}
